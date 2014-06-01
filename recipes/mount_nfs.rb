@@ -2,6 +2,14 @@
 # Elastic IP is hardcoded
 #
 #
+
+directory "/mnt/data" do
+  owner "root"
+  group "root"
+  mode 0755
+  action :create
+end
+
 mount "/mnt/data" do
   device "54.214.253.37:/mnt/data"
   fstype "nfs"
