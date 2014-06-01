@@ -1,6 +1,5 @@
 # deploybot-cookbook
 
-TODO: Enter the cookbook description here.
 
 ## Supported Platforms
 
@@ -49,3 +48,8 @@ Include `deploybot` in your node's `run_list`:
 ## License and Authors
 
 Author:: YOUR_NAME (<YOUR_EMAIL>)
+=======
+deploybot
+=========
+
+A series of Chef Recipes to deploy the DSSG stack. 
