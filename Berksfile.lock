@@ -1,0 +1,9 @@
+DEPENDENCIES
+  deploybot
+    path: .
+    metadata: true
+  user
+
+GRAPH
+  deploybot (0.1.0)
+  user (0.3.0)
