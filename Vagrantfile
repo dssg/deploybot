@@ -80,7 +80,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     chef.run_list = [
         "recipe[deploybot::default]",
-        "recipe[anaconda::default]"
+        "recipe[anaconda::default]",
+        "recipe[r::default]"
     ]
   end
 end
