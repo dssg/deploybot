@@ -6,3 +6,4 @@ description      'Installs/Configures deploybot'
 long_description 'Installs/Configures deploybot'
 version          '0.1.0'
 
+depends 'anaconda'
