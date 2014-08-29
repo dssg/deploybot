@@ -15,3 +15,16 @@ mount "/mnt/data" do
   fstype "nfs"
   options "rw"
 end
+
+directory "/mnt/data2" do
+  owner "root"
+  group "root"
+  mode 0755
+  action :create
+end
+
+mount "mnt/data2" do
+  device "54.214.253.37:/mnt/data2"
+  fstype "nfs"
+  options "rw"
+end
