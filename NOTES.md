@@ -6,7 +6,9 @@ Author: Hunter Owens (howens@uchicago.edu)
 
 ## Main Stack
 
-The main deployment of the stack is an OpsWorks setup, which is Amazon's custom Chef installation. This repo contains custom recipes. 
+The main deployment of the stack is an OpsWorks setup, which is Amazon's custom Chef installation. This repo contains custom recipes.
+
+The Amazon machines are paid for with a grant, and part of the onboarding process for somebody at DSaPP should be obtaining IAM access credentials to the account. 
 
 We have 2 layers, or different types of servers. 
 
