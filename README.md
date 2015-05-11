@@ -44,7 +44,7 @@ Include `deploybot` in your node's `run_list`:
 4. Write tests for your change (if applicable)
 5. Run the tests, ensuring they all pass
 6. Submit a Pull Request
-
+ 
 ## License and Authors
 
 Author:: YOUR_NAME (<YOUR_EMAIL>)
