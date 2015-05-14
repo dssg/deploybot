@@ -6,8 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 
-#default.anaconda.accept_license = 'yes'
+default.anaconda.accept_license = 'yes'
 
-#default.anaconda.owner = 'ubuntu'
-#default.anaconda.group = 'ubuntu'
-#include_recipe 'anaconda::default'
+default.anaconda.owner = 'ubuntu'
+default.anaconda.group = 'ubuntu'
+include_recipe 'anaconda::default'
