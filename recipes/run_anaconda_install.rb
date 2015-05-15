@@ -1,5 +1,3 @@
-script "install-anaconda" do
-    user "root"
-    command "/mnt/data/anaconda/install.py"
-    action :run
+execute "install-anaconda" do
+    command "python /mnt/data/anaconda/install.py"
 end
