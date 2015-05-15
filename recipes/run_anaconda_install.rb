@@ -1,3 +1,4 @@
 execute "install-anaconda" do
-    command "python /mnt/data/anaconda/install.py"
+    cwd "/mnt/data/anaconda"
+    command "python install.py"
 end
