@@ -39,6 +39,6 @@ end
 mount "mnt/data" do
   device "54.214.253.37:/mnt/data3"
   fstype "nfs"
-  options "rw"
+  options "rw,acl"
 end
 
