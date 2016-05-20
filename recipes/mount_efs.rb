@@ -38,7 +38,7 @@ end
  
 mount "mnt/data" do
   device "10.0.0.153:/"
-  fstype "nfs"
+  fstype "nfs4"
   options "rw,acl"
 end
 
