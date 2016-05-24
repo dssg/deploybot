@@ -18,7 +18,7 @@ directory "/mnt/data/training" do
 end
  
 mount "mnt/data/training" do
-  device "10.0.0.153:/"
+  device "10.0.0.153:/training"
   fstype "nfs4"
   options "rw,acl"
 end
