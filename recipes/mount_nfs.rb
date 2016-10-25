@@ -16,7 +16,7 @@ mount "/mnt/data" do
 end
 
 group "public_safety" do
-  gid 7000
+  gid 7016
   action :manage
   members ['jwalsh']
 end
