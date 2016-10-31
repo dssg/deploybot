@@ -1,4 +1,4 @@
 execute "group-setup" do
-    cwd "/mnt/data/groups"
-    command "python setup_perms.py /mnt/data"
+    cwd "/mnt/data/admin/group-perms"
+    command "python setup_perms.py"
 end
